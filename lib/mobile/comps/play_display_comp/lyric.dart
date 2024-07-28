@@ -28,7 +28,7 @@ class AppleMusicLyricUi extends LyricUI {
   @override
   TextStyle getOtherMainTextStyle() {
     return const TextStyle(
-      color: CupertinoColors.systemGrey,
+      color: CupertinoColors.systemGrey3,
       fontSize: 18,
       fontWeight: FontWeight.bold,
     ).useSystemChineseFont();
@@ -37,7 +37,7 @@ class AppleMusicLyricUi extends LyricUI {
   @override
   TextStyle getOtherExtTextStyle() {
     return const TextStyle(
-      color: CupertinoColors.systemGrey,
+      color: CupertinoColors.systemGrey3,
       fontSize: 14,
     ).useSystemChineseFont();
   }
